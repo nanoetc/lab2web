@@ -18,7 +18,7 @@ setelah berhasil mari kita tambahkan sedikit perubahan menggunakan CSS inline</b
 ![ss2coode](ss/ss2code.jpg)</br>
 setelah ditamabahkan coba save dan refresh browser maka akan menampilkan sedikit perubahan</br>
 ![ss2hasil](ss/ss2hasil.jpg)</br>
-mari kita coba dengan merubah tampilan pada tag <u><p></u></br>
+mari kita coba dengan merubah tampilan pada tag <u>p</u></br>
 ![ss3code](ss/ss3code.jpg)</br>
 setelah itu mari kita save dan coba refresh kembali browser</br>
 ![ss3hasil](ss/ss3hasil.jpg)</br>
@@ -34,3 +34,17 @@ setelah itu mari kita save dan coba refresh kembali browser</br>
  setelah itu mari kita save file CSS dan lihat perubahannya pada browser</br>
  ![ss5hasil](ss/ss5hasil.jpg)</br>
  sekian terima kasih semoga bermanfaat
+ 
+ Pertanyaan dan Tugas</br>
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</br>
+jawab : [stylecss2](style-eksternal2.css)</br>
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!</br>
+jawab : perbedaan h1 pada judul paling atas "yang bertuliskan CSS internal inline css sedangkan #intro h1 terletak pada tulisan "hello world"</br>
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!</br>
+jawab : deklarasi yang akan ditampikan adalah internal CSS terlebih dahulu karena terletak pada tag title.</br>
+contoh</br>
+![contoh1](ss/ssjawabno3.1.jpg)</br>
+![contoh2](ss/ssjawabno3.2.jpg)</br>
+![hasil](ss/ssjawabno3.3.jpg)</br>
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )</br>
+jawab : maka yang terpanggil adalah deklarasi pada CSS karena terletak pada title
